@@ -1,11 +1,11 @@
 body{
-    background: linear-gradient(120deg, #2980b9, #05a342 );
+    background: linear-gradient(90deg, #292728, #a3053a );
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .center
 {
     position: absolute;
-    top: 220%;
+    top: 230%;
     left: 50%;
     padding-bottom: 20px;
     padding-right: 30px ;
@@ -22,14 +22,6 @@ body{
     border-bottom: 1px solid silver;
     text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.281);
 }
-img
-{
-    height: 80px;
-    width: 80px;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-bottom: 20px;
-}
 .clearfix {
     overflow: auto;
     text-align: center;
@@ -37,6 +29,11 @@ img
   
 .img2 {
     float: left;
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
 }
 .menu li
 {
@@ -45,7 +42,7 @@ img
 .menu li a 
 {  
   text-decoration: none;
-  color: #0388e0;
+  color: #a3053a;
   font-size: 25px;
   line-height: 100px ;
   text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.281);
@@ -57,4 +54,59 @@ img
 .menu li a:hover{
   color: #003355;
   transition: 0.5s;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  #a3053a;
+  color: white;
+}
+.texto
+{
+  text-decoration: none;
+  color: #a3053a;
+  font-size: 25px;
+  line-height: 100px ;
+  text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.281);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+.caixa-texto
+{
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    padding-bottom: 30px;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    background: white;
+    border-radius: 20px;
+    opacity: 95%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.185);
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2
+{
+  color: #a3053a;
 }
